@@ -1,0 +1,8 @@
+.step {
+  @apply py-40 px-4 md:px-8 overflow-hidden 2xl:px-60  mx-auto  grid-cols-12   relative;
+}
+.step-card{
+@apply 
+p-[50px] duration-300 transform bg-white border rounded-[16px] shadow-sm hover:-translate-y-2
+    }
+

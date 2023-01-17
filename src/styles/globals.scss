@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./footer.scss";
+@import "./header.scss";
+@import "./about.scss";
+@import "./hero.scss";
+@import "./step.scss";
+@import "./investor.scss";
+
+
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../../public/font/Rubik-Regular.ttf");
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: #F9F9FB;
+  overflow-x: hidden;
+}
+//hover effect underline
+	.link-underline {
+		border-bottom-width: 0;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#246E42,#246E42);
+		background-size: 0 2px;
+		background-position: 0 100% ;
+		background-repeat: no-repeat;
+		transition: background-size .2s ease-in-out;
+    padding-bottom: 5px;
+    cursor: pointer;
+	}
+	.link-underline:hover {
+		background-size: 100% 2px;
+	}
+//react-tab
+.react-tabs__tab{	 
+	background: none;
+	border:none;
+	position: inherit !important;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;  
+	padding-right: 0px;
+	margin-right: 12px;
+	font-weight: bold;
+	color: #262338a3
+;
+
+	font-size: 14px;
+}
+ .react-tabs__tab--selected {
+
+		color: #246E42;
+
+	border-bottom: 2px solid #246E42;
+ }
+ .react-tabs__tab-list{
+	border-bottom: none;
+ }
+//custom-swiper
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  border-radius: 16px !important;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button {
+  position: absolute;
+  top: calc(50% - 1rem);
+  z-index: 10;
+  cursor: pointer;
+}
+.swiper-button svg {
+  width: 48px;
+  height: 48px;
+}
+.image-swiper-button-prev {
+  left: -10px;
+}
+.image-swiper-button-next {
+  right: -10px;
+}
+.swiper-button-disabled {
+  opacity: 0.5;
+}
+
+//dropdown
+//
+.dropdown {
+  position: relative;
+}
+
+.header-menu {
+  position: absolute;
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+  border: 1px solid grey;
+  width: 250px;
+  border-radius: 8px;
+
+}
+
+.header-menu > li > button {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}

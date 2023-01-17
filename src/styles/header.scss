@@ -1,0 +1,46 @@
+.header {
+  @apply z-50 fixed  w-full bg-[#063046] transition-all left-0 right-0  top-0  2xl:px-60 px-4 md:px-8  mx-auto ;
+}
+
+.header > div {
+  @apply mx-auto container  grid lg:flex lg:justify-between grid-cols-2 items-center;
+}
+
+.nav {
+  @apply flex items-center ;
+}
+
+
+.flex-action {
+  @apply hidden lg:block  grid-flow-col  py-3   sm:py-4 ; 
+  
+}
+//menu
+.mobileBtn {
+  @apply lg:hidden justify-self-end inline-flex items-end justify-center rounded-md bg-neutral-50 p-2  hover:text-neutral-50 focus:outline-none;
+}
+
+.menu {
+  @apply col-span-2 bg-neutral-50 text-neutral-700 p-2 mt-4 rounded-lg shadow-lg  z-50;
+}
+
+
+
+.mobileNav {
+  @apply w-full py-2;
+}
+
+
+.animation-hover:after {
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  height: 2px;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  @apply w-0 bg-[#f58521] left-1/2 block bottom-0 absolute;
+}
+.animation-active:after {
+  @apply left-0 w-full;
+}
+.animation-hover:hover:after {
+  @apply left-0 w-full;
+}

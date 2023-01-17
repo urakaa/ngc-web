@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  }
+  , 
+   "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/components/common/custom-button.jsx", "src/components/common/logo.jsx", "src/components/common/dropdown.jsx", "src/components/common/custom-card.jsx", "src/pages/index.jsx", "src/pages/404.jsx", "src/pages/_document.jsx", "src/pages/_app.jsx", "src/components/layout/mobine-menu-button.jsx", "src/components/layout/mobile-menu.jsx", "src/components/layout/main-header.jsx", "src/components/layout/main-header-dropdown.jsx", "src/components/layout/main-footer.jsx", "src/components/home/hero.jsx", "src/components/home/about.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

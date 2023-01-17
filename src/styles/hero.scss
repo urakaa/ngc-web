@@ -1,0 +1,17 @@
+.hero {
+  @apply w-full bg-center bg-cover mt-20  ;
+
+
+}
+.hero div {
+  @apply col-span-12 lg:col-span-6 xl:place-self-center mb-8 mt-8 xl:mt-0 lg:mb-0 z-50 place-self-center;
+}
+
+
+.title {
+  @apply text-center lg:text-left text-[64px] font-bold leading-[78px] text-white;
+}
+
+.desc {
+  @apply my-8 max-w-lg mx-auto lg:mx-0 text-center lg:text-left opacity-70 text-[16px] text-white;
+}
