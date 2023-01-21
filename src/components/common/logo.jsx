@@ -6,7 +6,7 @@ export default function LogoCommon() {
     <Link href="/">
       <img
         src="/images/logo.png"
-        className="w-[155] h-[102px] mb-2"
+        className="w-[144px] h-[102px] mb-2"
         alt="visit-bulgan"
       />
     </Link>

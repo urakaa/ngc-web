@@ -1,4 +1,4 @@
-export default function Step({}) {
+export default function Step() {
   return (
     <>
       <section className="step" id="step">
@@ -9,7 +9,7 @@ export default function Step({}) {
           <div className="step-card">
             <div className="flex items-center justify-between mb-2">
               <p className="text-[20px] font-bold text-[#f58521]">
-                Алсын Хараа{" "}
+                Алсын Хараа
               </p>
               <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
                 1
@@ -22,7 +22,7 @@ export default function Step({}) {
           <div className="step-card">
             <div className="flex items-center justify-between mb-2">
               <p className="text-[20px] font-bold text-[#f58521]">
-                Эрхэм зорилго{" "}
+                Эрхэм зорилго
               </p>
               <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
                 2
@@ -34,9 +34,7 @@ export default function Step({}) {
           </div>
           <div className="step-card">
             <div className="flex items-center justify-between mb-2">
-              <p className="text-[20px] font-bold  text-[#f58521]">
-                Үнэт зүйл{" "}
-              </p>
+              <p className="text-[20px] font-bold  text-[#f58521]">Үнэт зүйл</p>
               <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
                 3
               </p>

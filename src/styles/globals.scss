@@ -56,7 +56,7 @@ body {
 }
  .react-tabs__tab--selected {
 
-		color: #246E42;
+	color: #246E42;
 
 	border-bottom: 2px solid #246E42;
  }
@@ -145,4 +145,7 @@ body {
   margin: 0;
   font: inherit;
   cursor: pointer;
+}
+.pdf {
+  @apply py-40 px-4 md:px-8 overflow-hidden 2xl:px-60  mx-auto  grid-cols-12   relative;
 }
